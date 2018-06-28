@@ -1,0 +1,9 @@
+{
+  "name": "api.willhack.org",
+  "version": "0.0.1",
+  "description": "backend for the willhack.org splash page",
+  "main": "index.js",
+  "repository": "https://github.com/willhackforgood/api.willhack.org.git",
+  "author": "patrickrauls <p@willhack.org>",
+  "license": "MIT"
+}
