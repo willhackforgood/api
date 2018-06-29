@@ -3,7 +3,16 @@
   "version": "0.0.1",
   "description": "backend for the willhack.org splash page",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
   "repository": "https://github.com/willhackforgood/api.willhack.org.git",
   "author": "patrickrauls <p@willhack.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pm2": "^2.10.4"
+  }
 }
